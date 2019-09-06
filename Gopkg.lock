@@ -45,6 +45,14 @@
   revision = "bb4de0191aa41b5507caa14b0650cdbddcd9280b"
 
 [[projects]]
+  branch = "master"
+  digest = "1:2b0faa21f5be1c891bccfdaa966777f550d7151151f5677dc2db8c41661f0d48"
+  name = "github.com/siebenmann/go-kstat"
+  packages = ["."]
+  pruneopts = "UT"
+  revision = "d34789b79745378edda3127f93d20e49ba816255"
+
+[[projects]]
   digest = "1:5da8ce674952566deae4dbc23d07c85caafc6cfa815b0b3e03e41979cedb8750"
   name = "github.com/stretchr/testify"
   packages = [
@@ -74,6 +82,7 @@
   input-imports = [
     "github.com/StackExchange/wmi",
     "github.com/shirou/w32",
+    "github.com/siebenmann/go-kstat",
     "github.com/stretchr/testify/assert",
     "github.com/stretchr/testify/require",
     "golang.org/x/sys/unix",
